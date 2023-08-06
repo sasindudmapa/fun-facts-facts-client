@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:ital,wght@1,600&display=swap");
+
+.footer {
+  background-color: #211d1a;
+  color: white;
+}
+
+.footer-top {
+  display: flex;
+  padding: 50px;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-logo,
+.footer-title {
+  padding: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}

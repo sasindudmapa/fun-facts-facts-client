@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.search-header {
+  color: white;
+  text-decoration: none;
+}
+
+#li-link {
+  color: white;
+}
+
+.search-content-mid-top {
+  text-align: center;
+  margin: 90px 0;
+}
+
+.search-bar input {
+  width: 85vw;
+  padding: 10px;
+  min-height: 30px;
+  text-align: center;
+  /* font-family: "Raleway", sans-serif; */
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  /* font-family: "Rubik", sans-serif; */
+  outline: 0;
+  transition: 0.2s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.search-bar input:focus {
+  border-color: #f3a077;
+}
+
+.search-btn {
+  text-align: center;
+  margin: 10px;
+  width: 15vw;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.search-ad-rightbar,
+.search-ad-leftbar {
+}
+
+.no-results {
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,5 @@
+/* Uploading Status button */
+#upload-status {
+  opacity: 0;
+  background-color: red;
+}

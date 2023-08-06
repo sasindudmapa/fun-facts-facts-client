@@ -1,0 +1,28 @@
+.ad-bar-img {
+  margin: 20px 0;
+}
+
+.ad-bar-img img {
+  width: 18vw;
+  transition: 200ms ease;
+}
+
+.ad-bar-img img:hover {
+  transform: scale(1.1);
+}
+
+/* SMALL SCREENS */
+@media only screen and (max-width: 768px) {
+  .ad-bar-wrap {
+    min-width: 100vw;
+    display: flex;
+  }
+
+  .ad-bar-img img {
+    width: 22vw;
+  }
+
+  .ad-bar-img {
+    margin: 20px 1.5vw;
+  }
+}
